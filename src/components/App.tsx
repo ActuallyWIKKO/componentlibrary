@@ -1,6 +1,6 @@
 import DomRouter from '../router/dom-router'
 import Navigation from '../components/Navigation'
-import './App.scss'
+import '../index.css'
 
 export function App() {
   return (
@@ -8,7 +8,6 @@ export function App() {
       <nav>
         <Navigation />
       </nav>
-      <DomRouter />
     </>
   )
 }

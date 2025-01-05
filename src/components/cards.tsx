@@ -7,8 +7,8 @@ import {
   DrawerHeader,
   DrawerTitle,
   DrawerTrigger
-} from './components/ui/drawer'
-import { Button } from './components/ui/button'
+} from '../components/shadcn-ui/drawer'
+import { Button } from '../components/shadcn-ui/button'
 
 export default function Cards() {
   return (
